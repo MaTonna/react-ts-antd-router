@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "jsx": "react",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "lib": [
+      "es5",
+      "dom",
+      "es2015.collection"
+    ],
+    "paths": {
+      "@models/*": [
+        "models/*"
+      ],
+      "@routes/*": [
+        "routes/*"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@img/*": [
+        "img/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
