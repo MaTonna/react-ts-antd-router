@@ -6,11 +6,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = merge(baseWebpackConfig, {
-  entry: './src/pages/index',
-  output: {
-    path: path.resolve(__dirname, '../dist'),
-    filename: 'app.bundle.js'
-  },
   optimization: {
     minimizer: [new TerserPlugin({
       test: /\.(ts|js)x?$/,

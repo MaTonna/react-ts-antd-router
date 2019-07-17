@@ -27,8 +27,11 @@
 }
 .layout-wrap .logo-wrap {
   float: left;
+  position: relative;
+  margin-right: 20px;
   padding: 12px 10px;
   width: 240px;
+  background: #00284d;
   color: #fff;
   font-size: 17px;
   height: 64px;
@@ -39,12 +42,17 @@
   margin-right: 10px;
   width: 40px;
   height: 40px;
-  background: url(/img/logo.jpg);
+  background: url(data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAACOCAIAAABon6dfAAAB9klEQVR4Ae3TgQ0AMAiEwLb776zpGJfgBAT8OzOnEww8ATLGb6BUzB+UqlSMAQa0VZWKMcCAtqpSMQYY0FZVKsYAA9qqSsUYYEBbVakYAwxoqyoVY4ABbVWlYgwwoK2qVIwBBrRVlYoxwIC2qlIxBhjQVlUqxgAD2qpKxRhgQFtVqRgDDGirKhVjgAFtVaViDDCgrapUjAEGtFWVijHAgLaqUjEGGNBWVSrGAAPaqkrFGGBAW1WpGAMMaKsqFWOAAW1VpWIMMKCtqlSMAQa0VZWKMcCAtqpSMQYY0FZVKsYAA9qqSsUYYEBbVakYAwxoqyoVY4ABbVWlYgwwoK2qVIwBBrRVlYoxwIC2qlIxBhjQVlUqxgAD2qpKxRhgQFtVqRgDDGirKhVjgAFtVaViDDCgrapUjAEGtFWVijHAgLaqUjEGGNBWVSrGAAPaqkrFGGBAW1WpGAMMaKsqFWOAAW1VpWIMMKCtqlSMAQa0VZWKMcCAtqpSMQYY0FZVKsYAA9qqSsUYYEBbVakYAwxoqyoVY4ABbVWlYgwwoK2qVIwBBrRVlYoxwIC2qlIxBhjQVlUqxgAD2qpKxRhgQFtVqRgDDGirKhVjgAFtVaViDDCgrapUjAEGtFWVijHAgLaqUjEGGNBWVSrGAAPaqkrFGGBAWxWTagFAdgQZwCAF5wAAAABJRU5ErkJggg==);
   background-size: 100% 100%;
   vertical-align: middle;
 }
+.layout-wrap .fold-icon {
+  position: absolute;
+  top: 22px;
+  right: 7px;
+}
 .layout-wrap .ant-layout-sider {
-  background: #fff;
+  background: #001529;
   overflow-x: hidden;
   overflow-y: auto;
 }

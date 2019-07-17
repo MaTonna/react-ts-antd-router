@@ -1,11 +1,3 @@
-/*
- * @Description:
- * @Author: xiaoya
- * @Date: 2019-07-10 11:57:53
- * @Last Modified by: xiaoya
- * @Last Modified time: 2019-07-16 14:33:29
- */
-
 import React, { Component, FormEvent, ReactNode } from 'react';
 import { Form, Table, Row, Col, Input, Button } from 'antd';
 import { FormComponentProps } from 'antd/lib/form';

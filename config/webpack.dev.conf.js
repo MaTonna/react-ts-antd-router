@@ -3,10 +3,13 @@ const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: './src/pages/index',
+  entry: {
+    'index': ['./src/pages/index'],
+    'login': ['./src/pages/login'],
+  },
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: 'app.bundle.js'
+    filename: 'js/[name].js'
   },
   module: {
     rules: [

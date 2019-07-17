@@ -2,7 +2,7 @@
 
 ## 主要架构
 
-- 页面入口路径：dist/index.html。
+- 登录页：dist/login.html、主页面：dist/index.html、404 页面：dist/404.html。
 
 - 以 react 框架为主，使用 TypeScript 进行开发，并用 babel 编译为 JavaScript，ant design 作为 UI 组件库按需加载到页面，less 预编译样式、index.tsx 为主入口，用 react-router 做路由异步加载每个模块。
 
@@ -10,7 +10,7 @@
 
 - 顶部导航和侧边导航在 src/pages/menuConfig.tsx 中配置，children 最多可配置两层，若有两层则会由 SubMenu 包裹。
 
-- build 构建后会生成 app.bundle.js 为入口，按需引入的模块为 x.app.bundle.js，点击侧边栏会异步加载对应的 js 和 css。
+- dev/build 构建后会生成 dist/js/index.js 为入口，按需引入的模块为 x.js，点击侧边栏会异步加载对应的 js 和 css；登录页入口为 dist/js/login.js，在 webpack.dev.config.js 的 entry 中配置了多入口。
 
 ## 启动和构建
 
